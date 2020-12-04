@@ -28,13 +28,14 @@ class _RegistrationState extends State<Registration> {
       resizeToAvoidBottomInset: false,
       body: Container(
         decoration: BoxDecoration(
-            gradient: LinearGradient(
-                begin: Alignment.centerRight,
-                end: Alignment.bottomLeft,
-                colors: [
-                  Color(0Xff294D64),
-                  Color(0Xff294D64),
-                ])),
+            // gradient: LinearGradient(
+            //     begin: Alignment.centerRight,
+            //     end: Alignment.bottomLeft,
+            //     colors: [
+            //       Color(0Xff294D64),
+            //       Color(0Xff294D64),
+            //     ]),
+            ),
         child: Card(
           margin: EdgeInsets.symmetric(horizontal: 40.0,vertical: 210),
           elevation: 26.0,
@@ -111,13 +112,13 @@ class _RegistrationState extends State<Registration> {
                 padding: const EdgeInsets.symmetric(horizontal: 100.0,vertical: 50.0),
                 child: Container(
                   decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                        begin: Alignment.centerRight,
-                        end: Alignment.bottomLeft,
-                        colors: [
-                          Color(0Xaa305FD6),
-                          Color(0Xaa305FD6),
-                        ]),
+                    // gradient: LinearGradient(
+                    //     begin: Alignment.centerRight,
+                    //     end: Alignment.bottomLeft,
+                    //     colors: [
+                    //       Color(0Xaa305FD6),
+                    //       Color(0Xaa305FD6),
+                    //     ]),
                     borderRadius: BorderRadius.circular(30.0),
                     color: Colors.white,
                     boxShadow: [

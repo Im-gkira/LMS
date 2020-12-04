@@ -4,7 +4,6 @@ import 'package:library_management_system/authorization/registration.dart';
 import 'package:library_management_system/authorization/login.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:drawing_animation/drawing_animation.dart';
-import 'package:library_management_system/Animations/paths.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
 // This Screen is the Welcome Screen That the User sees for the first time when the app starts.
@@ -25,13 +24,15 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
-            gradient: LinearGradient(
-                begin: Alignment.centerRight,
-                end: Alignment.bottomLeft,
-                colors: [
-              Color(0Xff294D64),
-              Color(0Xff294D64),
-            ])),
+            // gradient: LinearGradient(
+            //   begin: Alignment.centerRight,
+            //   end: Alignment.bottomLeft,
+            //   colors: [
+            //     Color(0Xff294D64),
+            //     Color(0Xff294D64),
+            //   ],
+            // ),
+        ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisAlignment: MainAxisAlignment.center,
@@ -58,13 +59,13 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   const EdgeInsets.symmetric(horizontal: 100.0, vertical: 10.0),
               child: Container(
                 decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                      begin: Alignment.centerRight,
-                      end: Alignment.bottomLeft,
-                      colors: [
-                        Color(0XaaF4A521),
-                        Color(0XaaF4A521),
-                      ]),
+                  // gradient: LinearGradient(
+                  //     begin: Alignment.centerRight,
+                  //     end: Alignment.bottomLeft,
+                  //     colors: [
+                  //       Color(0XaaF4A521),
+                  //       Color(0XaaF4A521),
+                  //     ]),
                   borderRadius: BorderRadius.circular(30.0),
                   color: Colors.white,
                   boxShadow: [
@@ -99,13 +100,13 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 100.0),
               child: Container(
                 decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                      begin: Alignment.centerRight,
-                      end: Alignment.bottomLeft,
-                      colors: [
-                        Color(0Xaa305FD6),
-                        Color(0Xaa305FD6),
-                      ]),
+                  // gradient: LinearGradient(
+                  //     begin: Alignment.centerRight,
+                  //     end: Alignment.bottomLeft,
+                  //     colors: [
+                  //       Color(0Xaa305FD6),
+                  //       Color(0Xaa305FD6),
+                  //     ]),
                   borderRadius: BorderRadius.circular(30.0),
                   color: Colors.white,
                   boxShadow: [

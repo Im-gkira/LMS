@@ -53,13 +53,14 @@ class _LoginState extends State<Login> {
       resizeToAvoidBottomInset: false,
       body: Container(
         decoration: BoxDecoration(
-            gradient: LinearGradient(
-                begin: Alignment.centerRight,
-                end: Alignment.bottomLeft,
-                colors: [
-              Color(0Xff294D64),
-              Color(0Xff294D64),
-            ])),
+            // gradient: LinearGradient(
+            //     begin: Alignment.centerRight,
+            //     end: Alignment.bottomLeft,
+            //     colors: [
+            //   Color(0Xff294D64),
+            //   Color(0Xff294D64),
+            // ]),
+            ),
         child: Card(
           margin: EdgeInsets.symmetric(horizontal: 40.0,vertical: 210.0),
           elevation: 26.0,
@@ -136,13 +137,13 @@ class _LoginState extends State<Login> {
                 padding: const EdgeInsets.symmetric(horizontal: 100.0,vertical: 50.0),
                 child: Container(
                   decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                        begin: Alignment.centerRight,
-                        end: Alignment.bottomLeft,
-                        colors: [
-                          Color(0XaaF4A521),
-                          Color(0XaaF4A521),
-                        ]),
+                    // gradient: LinearGradient(
+                    //     begin: Alignment.centerRight,
+                    //     end: Alignment.bottomLeft,
+                    //     colors: [
+                    //       Color(0XaaF4A521),
+                    //       Color(0XaaF4A521),
+                    //     ]),
                     borderRadius: BorderRadius.circular(30.0),
                     color: Colors.white,
                     boxShadow: [
